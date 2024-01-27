@@ -1,0 +1,7 @@
+name: video-editor
+channels:
+  - conda-forge
+dependencies:
+  - anaconda::gstreamer
+  - jupyterlab
+  - python==3.10
