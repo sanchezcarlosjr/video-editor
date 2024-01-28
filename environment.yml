@@ -2,6 +2,17 @@ name: video-editor
 channels:
   - conda-forge
 dependencies:
-  - anaconda::gstreamer
-  - jupyterlab
   - python==3.10
+  - gstreamer
+  - jupyterlab
+  - jupyter
+  - ipykernel
+  - opencv
+  - gst-plugins-base
+  - gst-plugins-good
+  - ffmpeg
+  - gst-plugins-ugly
+  - gst-plugins-bad
+  - gstreamer-orc
+  - pygobject
+  - gst-libav
